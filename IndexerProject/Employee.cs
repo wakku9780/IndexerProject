@@ -37,6 +37,17 @@ namespace IndexerProject
 
 
             }
+
+            set
+            {
+                if (index == 0) Eno = (int)value;
+                else if (index == 1) Ename = (string)value;
+                else if (index == 2) Job = (string)value;
+                else if (index == 3) salary = (double)value;
+                else if(index==4)Dname = (string)value;
+                else if(index==5)Location = (string)value;
+
+            }
         }
 
     }

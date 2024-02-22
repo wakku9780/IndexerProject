@@ -19,6 +19,18 @@ namespace IndexerProject
             Console.WriteLine("Dname: " + Emp[4]);
             Console.WriteLine("Location: " + Emp[5]);
 
+            Emp[1] = "waqar";
+            Emp[3] = 50000.00;
+
+            Console.WriteLine("After Value Change\n");
+            Console.WriteLine("Eno: " + Emp[0]);
+            Console.WriteLine("Ename: " + Emp[1]);
+            Console.WriteLine("Job: " + Emp[2]);
+            Console.WriteLine("Salary: " + Emp[3]);
+            Console.WriteLine("Dname: " + Emp[4]);
+            Console.WriteLine("Location: " + Emp[5]);
+
+
             Console.ReadLine();
         }
     }
